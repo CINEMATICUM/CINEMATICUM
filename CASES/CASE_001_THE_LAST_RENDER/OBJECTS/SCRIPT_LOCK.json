@@ -1,0 +1,12 @@
+{
+  "object_type": "CINEMATICUM_SCRIPT_LOCK",
+  "schema_version": "0.1.0",
+  "object_id": "script-lock-0001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "LOCK_DRAFT_NOT_FINAL",
+  "title": "THE LAST RENDER",
+  "logline": "A solitary projectionist wakes inside a dead render facility and must reconstruct one missing timeline to become the last admissible witness.",
+  "thesis": "A film is not alive because it is generated. A film is alive because someone chose what must remain.",
+  "lock_rule": "No shot may enter final cut unless it serves the audience wound and the evidentiary body."
+}

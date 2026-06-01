@@ -1,0 +1,29 @@
+{
+  "object_type": "CINEMATICUM_ISSUANCE_SPINE_STANDARD",
+  "schema_version": "0.1.0",
+  "jurisdiction": "CINEMATICUM",
+  "standard_id": "ISSUANCE_SPINE_STANDARD_0001",
+  "root_rule": "A motion picture is not issued by rendering; it is issued by authority, lock, selection, final cut, release, hash, replay, and closure.",
+  "required_spine_objects": [
+    "case_charter",
+    "director_authority",
+    "script_lock",
+    "shot_function_lock",
+    "selected_take_record",
+    "final_cut_timeline",
+    "release_manifest",
+    "media_hashes",
+    "issuance_receipt",
+    "outsider_replay_bundle",
+    "terminal_closure"
+  ],
+  "forbidden_reductions": [
+    "AI video generator",
+    "prompt-to-video pipeline",
+    "render demo",
+    "model showcase",
+    "synthetic media experiment",
+    "visual moodboard"
+  ],
+  "issuance_condition": "CASE_ISSUED only after every required spine object exists, validates, and binds to the same case_id."
+}

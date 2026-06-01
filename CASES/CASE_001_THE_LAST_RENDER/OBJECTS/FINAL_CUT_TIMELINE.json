@@ -1,0 +1,10 @@
+{
+  "object_type": "CINEMATICUM_FINAL_CUT_TIMELINE",
+  "schema_version": "0.1.0",
+  "object_id": "final-cut-timeline-0001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "NO_FINAL_CUT_YET",
+  "timeline": [],
+  "cut_rule": "The final cut is the first point where no additional generated option can overrule selected testimony."
+}

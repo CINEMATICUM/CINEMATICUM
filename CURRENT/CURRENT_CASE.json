@@ -1,0 +1,8 @@
+{
+  "object_type": "CINEMATICUM_CURRENT_CASE_POINTER",
+  "schema_version": "0.1.0",
+  "jurisdiction": "CINEMATICUM",
+  "current_case": "CASE_001_THE_LAST_RENDER",
+  "current_case_path": "CASES/CASE_001_THE_LAST_RENDER",
+  "current_status": "CASE_OPEN_NOT_ISSUED"
+}

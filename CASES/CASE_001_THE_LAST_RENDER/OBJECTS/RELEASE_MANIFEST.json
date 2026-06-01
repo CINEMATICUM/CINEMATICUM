@@ -1,0 +1,10 @@
+{
+  "object_type": "CINEMATICUM_RELEASE_MANIFEST",
+  "schema_version": "0.1.0",
+  "object_id": "release-manifest-0001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "NOT_RELEASED",
+  "release_artifacts": [],
+  "release_rule": "No release is valid without media hashes, final cut timeline, issuance receipt, and terminal closure."
+}

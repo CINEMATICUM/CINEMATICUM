@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cinematicum.dev/schemas/cinematicum-object.schema.json",
+  "title": "CINEMATICUM Object",
+  "type": "object",
+  "required": [
+    "object_type",
+    "schema_version",
+    "object_id",
+    "jurisdiction",
+    "case_id",
+    "status"
+  ],
+  "properties": {
+    "object_type": { "type": "string", "minLength": 1 },
+    "schema_version": { "type": "string", "minLength": 1 },
+    "object_id": { "type": "string", "minLength": 1 },
+    "jurisdiction": { "const": "CINEMATICUM" },
+    "case_id": { "type": "string", "minLength": 1 },
+    "status": { "type": "string", "minLength": 1 }
+  },
+  "additionalProperties": true
+}

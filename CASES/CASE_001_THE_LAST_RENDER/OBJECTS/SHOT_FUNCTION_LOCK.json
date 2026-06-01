@@ -1,0 +1,36 @@
+{
+  "object_type": "CINEMATICUM_SHOT_FUNCTION_LOCK",
+  "schema_version": "0.1.0",
+  "object_id": "shot-function-lock-0001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "SHOT_FUNCTIONS_DRAFT_NOT_FINAL",
+  "required_functions": [
+    {
+      "shot_id": "S001",
+      "function": "establish dead render facility as tomb, not workplace"
+    },
+    {
+      "shot_id": "S002",
+      "function": "show projectionist discovering corrupted timeline"
+    },
+    {
+      "shot_id": "S003",
+      "function": "reveal the missing shot is not technical but moral"
+    },
+    {
+      "shot_id": "S004",
+      "function": "force choice between endless generation and final testimony"
+    },
+    {
+      "shot_id": "S005",
+      "function": "close with chosen frame becoming admissible witness"
+    }
+  ],
+  "forbidden_shots": [
+    "beauty-only shot",
+    "lore-only shot",
+    "technology showcase shot",
+    "prompt spectacle without narrative burden"
+  ]
+}

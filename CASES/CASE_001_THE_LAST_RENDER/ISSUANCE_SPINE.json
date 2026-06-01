@@ -1,0 +1,29 @@
+{
+  "object_type": "CINEMATICUM_ISSUANCE_SPINE",
+  "schema_version": "0.1.0",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "spine_status": "CASE_OPEN_NOT_ISSUED",
+  "required_objects": [
+    "CASE_CHARTER.json",
+    "OBJECTS/DIRECTORIAL_AUTHORITY.json",
+    "OBJECTS/SCRIPT_LOCK.json",
+    "OBJECTS/SHOT_FUNCTION_LOCK.json",
+    "OBJECTS/SELECTED_TAKE_RECORD.json",
+    "OBJECTS/FINAL_CUT_TIMELINE.json",
+    "OBJECTS/RELEASE_MANIFEST.json",
+    "OBJECTS/MEDIA_HASHES.json",
+    "OBJECTS/ISSUANCE_RECEIPT.json",
+    "OBJECTS/OUTSIDER_REPLAY_BUNDLE.json",
+    "OBJECTS/TERMINAL_CLOSURE.json"
+  ],
+  "forbidden_claims": [
+    "film issued",
+    "final cut exists",
+    "media hashes complete",
+    "outsider replay complete",
+    "release complete",
+    "truth verified",
+    "admissibility decided outside CINEMATICUM standard"
+  ]
+}

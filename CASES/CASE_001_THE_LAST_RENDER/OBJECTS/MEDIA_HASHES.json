@@ -1,0 +1,10 @@
+{
+  "object_type": "CINEMATICUM_MEDIA_HASHES",
+  "schema_version": "0.1.0",
+  "object_id": "media-hashes-0001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "NO_MEDIA_HASHES_YET",
+  "hash_algorithm": "sha256",
+  "media": []
+}

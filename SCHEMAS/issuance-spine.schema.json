@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cinematicum.dev/schemas/issuance-spine.schema.json",
+  "title": "CINEMATICUM Issuance Spine",
+  "type": "object",
+  "required": [
+    "object_type",
+    "schema_version",
+    "case_id",
+    "jurisdiction",
+    "spine_status",
+    "required_objects",
+    "forbidden_claims"
+  ],
+  "properties": {
+    "object_type": { "const": "CINEMATICUM_ISSUANCE_SPINE" },
+    "schema_version": { "type": "string" },
+    "case_id": { "type": "string" },
+    "jurisdiction": { "const": "CINEMATICUM" },
+    "spine_status": { "type": "string" },
+    "required_objects": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 8
+    },
+    "forbidden_claims": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 5
+    }
+  },
+  "additionalProperties": true
+}

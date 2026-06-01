@@ -1,0 +1,23 @@
+{
+  "object_type": "CINEMATICUM_DIRECTORIAL_AUTHORITY",
+  "schema_version": "0.1.0",
+  "object_id": "director-authority-0001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "AUTHORITY_DECLARED_NOT_FINAL",
+  "authority_scope": [
+    "script lock",
+    "shot function lock",
+    "take selection",
+    "final cut selection",
+    "release manifest approval",
+    "terminal closure"
+  ],
+  "forbidden_powers": [
+    "claim issuance before final cut",
+    "hide rejected takes",
+    "alter media after hash publication",
+    "claim truth beyond cinematic evidence",
+    "delegate final cut to model output"
+  ]
+}

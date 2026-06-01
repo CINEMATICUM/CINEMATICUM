@@ -1,0 +1,9 @@
+{
+  "object_type": "CINEMATICUM_TERMINAL_CLOSURE",
+  "schema_version": "0.1.0",
+  "object_id": "terminal-closure-0001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "OPEN",
+  "closure_rule": "The case closes only when the issued film, its public release object, and its replay proof all agree."
+}

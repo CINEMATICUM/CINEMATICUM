@@ -1,0 +1,21 @@
+{
+  "object_type": "CINEMATICUM_OUTSIDER_REPLAY_BUNDLE",
+  "schema_version": "0.1.0",
+  "object_id": "outsider-replay-bundle-0001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "REPLAY_SKELETON_NOT_FINAL",
+  "required_inputs": [
+    "case charter",
+    "standard",
+    "authority",
+    "script lock",
+    "shot function lock",
+    "selected take record",
+    "final cut timeline",
+    "release manifest",
+    "media hashes",
+    "issuance receipt",
+    "terminal closure"
+  ]
+}

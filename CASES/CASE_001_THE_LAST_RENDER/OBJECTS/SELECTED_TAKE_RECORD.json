@@ -1,0 +1,10 @@
+{
+  "object_type": "CINEMATICUM_SELECTED_TAKE_RECORD",
+  "schema_version": "0.1.0",
+  "object_id": "selected-take-record-0001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "NO_TAKES_SELECTED_YET",
+  "selection_rule": "A take is selected only when its visual result serves the locked shot function and its file hash is recorded.",
+  "selected_takes": []
+}

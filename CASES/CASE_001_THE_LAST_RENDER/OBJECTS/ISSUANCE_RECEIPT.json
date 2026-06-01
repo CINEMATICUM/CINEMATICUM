@@ -1,0 +1,10 @@
+{
+  "object_type": "CINEMATICUM_ISSUANCE_RECEIPT",
+  "schema_version": "0.1.0",
+  "object_id": "issuance-receipt-0001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "NOT_ISSUED",
+  "issued": false,
+  "reason": "Audience body and evidentiary body are not complete."
+}

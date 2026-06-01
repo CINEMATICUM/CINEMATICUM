@@ -1,0 +1,66 @@
+{
+  "object_type": "CINEMATICUM_CASE_001_VERIFICATION_RESULT",
+  "schema_version": "0.1.0",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "valid": true,
+  "status": "CASE_OPEN_NOT_ISSUED",
+  "verified_objects": [
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/CASE_CHARTER.json",
+      "sha256": "c1b4c7711802f749aad35a0b710f7ce206307547f202646c8d94c8b6089f764c"
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/DIRECTORIAL_AUTHORITY.json",
+      "sha256": "b01ee3f3fce51a356f73e9a72ed00cde06df787bf1e124009b2c09185b97e25f"
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/SCRIPT_LOCK.json",
+      "sha256": "dc6014d3f59f3395d4870a8e8dee541cb71c0dbb12514b21fb2444ede6bd0a02"
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/SHOT_FUNCTION_LOCK.json",
+      "sha256": "adc33ea6241c9c0b381ddaf2621ab66a8d15b9fc380404ba209488903219466c"
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/SELECTED_TAKE_RECORD.json",
+      "sha256": "b7b3e52dad5e2602690452b6e1b71085ab58ef32c23b09e95b31af736a8ec6a8"
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/FINAL_CUT_TIMELINE.json",
+      "sha256": "0c6abb831fb198162a63a7703c4e7226de028296956a9c04e8d6a458ef49b209"
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/RELEASE_MANIFEST.json",
+      "sha256": "575a0aa3f1fdff40a9d4ab063cb528e856ac06ccc687b021c02933d196f50b1a"
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/MEDIA_HASHES.json",
+      "sha256": "0f77914cc23886ba2066e46e48c7342e32dcb52c38313f16820db4b273479408"
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/ISSUANCE_RECEIPT.json",
+      "sha256": "25b580e96762760a1c76d992f45eb1f59a0b049573550f2ec9d4ca3199506a03"
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/OUTSIDER_REPLAY_BUNDLE.json",
+      "sha256": "95733cd96779d88fe5fb1b2732cec75e03d5b41995df661d36692f9ee70abf17"
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/TERMINAL_CLOSURE.json",
+      "sha256": "ac76d244c79ba479636127d3061c05b2fc01d31710dd783eb77429e05dc82ea7"
+    }
+  ],
+  "forbidden_claims_enforced": [
+    "film issued",
+    "final cut exists",
+    "media hashes complete",
+    "outsider replay complete",
+    "release complete",
+    "truth verified",
+    "admissibility decided outside CINEMATICUM standard"
+  ],
+  "proves_film_issued": false,
+  "proves_truth": false,
+  "proves_admissibility": false
+}
