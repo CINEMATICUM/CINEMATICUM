@@ -1,0 +1,32 @@
+{
+  "object_type": "CINEMATICUM_CANDIDATE_VISUAL_RECORD",
+  "schema_version": "0.3.0",
+  "object_id": "s001-candidate-0001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "shot_id": "S001",
+  "candidate_id": "CANDIDATE_0001",
+  "status": "PROMPT_LOCKED_MEDIA_NOT_ATTACHED",
+  "declared_function": "Prove the world is a facility of unfinished films, not a sci-fi corridor.",
+  "prompt_lock_path": "PROMPT_LOCK.md",
+  "media_path": null,
+  "media_sha256": null,
+  "evaluation": {
+    "required_burdens": [
+      "dead render facility",
+      "projection light as last surviving authority",
+      "matte-black architectural silence",
+      "human absence felt as wound"
+    ],
+    "forbidden_failures": [
+      "cyberpunk neon",
+      "game environment",
+      "dashboard UI",
+      "robot character",
+      "generic apocalypse city",
+      "over-explained text"
+    ],
+    "selection_result": "NOT_SELECTED"
+  },
+  "issuance_effect": "None. Candidate prompt is locked, but no media is attached and no take is selected."
+}

@@ -1,10 +1,10 @@
 {
   "object_type": "CINEMATICUM_CASE_001_VERIFICATION_RESULT",
-  "schema_version": "0.2.0",
+  "schema_version": "0.3.0",
   "jurisdiction": "CINEMATICUM",
   "case_id": "CASE_001_THE_LAST_RENDER",
   "valid": true,
-  "status": "CASE_OPEN_SCRIPT_AND_SHOT_LAW_LOCKED_NOT_ISSUED",
+  "status": "CASE_OPEN_CANDIDATE_VISUAL_PROMPT_LOCKED_NOT_ISSUED",
   "verified_objects": [
     {
       "path": "CASES/CASE_001_THE_LAST_RENDER/CASE_CHARTER.json",
@@ -64,7 +64,11 @@
     },
     {
       "path": "CASES/CASE_001_THE_LAST_RENDER/VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/VISUAL_EVIDENCE_OBJECT.json",
-      "sha256": "d1b6230a35c949b7e9cfca6e4651f87b1c67871d0c39f83e2c762e445945ae11"
+      "sha256": "e0d789c1115614c5fd803f399e321c27d5c395fc4b4f786c328f1f842e231cbb"
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/CANDIDATES/CANDIDATE_0001/CANDIDATE_VISUAL_RECORD.json",
+      "sha256": "efdab815ca9c867eb80ecea366dce9134379e3f5b0d12d3f4e083785f6203b68"
     }
   ],
   "forbidden_claims_enforced": [
@@ -77,7 +81,10 @@
     "admissibility decided outside CINEMATICUM standard",
     "visual evidence selected",
     "shot admitted to final cut",
-    "script final for release"
+    "script final for release",
+    "candidate media attached",
+    "candidate media hashed",
+    "candidate selected"
   ],
   "proves_film_issued": false,
   "proves_truth": false,

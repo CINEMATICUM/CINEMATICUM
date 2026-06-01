@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "jurisdiction": "CINEMATICUM",
   "case_id": "CASE_001_THE_LAST_RENDER",
-  "spine_status": "CASE_OPEN_SCRIPT_AND_SHOT_LAW_LOCKED_NOT_ISSUED",
+  "spine_status": "CASE_OPEN_CANDIDATE_VISUAL_PROMPT_LOCKED_NOT_ISSUED",
   "required_objects": [
     "CASE_CHARTER.json",
     "OBJECTS/DIRECTORIAL_AUTHORITY.json",
@@ -19,7 +19,8 @@
     "SCRIPTS/SCRIPT_LOCK_V0_2.json",
     "SHOT_LAW/SHOT_FUNCTION_LAW_V0_2.json",
     "VISUAL_EVIDENCE/VISUAL_EVIDENCE_INDEX.json",
-    "VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/VISUAL_EVIDENCE_OBJECT.json"
+    "VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/VISUAL_EVIDENCE_OBJECT.json",
+    "VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/CANDIDATES/CANDIDATE_0001/CANDIDATE_VISUAL_RECORD.json"
   ],
   "forbidden_claims": [
     "film issued",
@@ -31,6 +32,9 @@
     "admissibility decided outside CINEMATICUM standard",
     "visual evidence selected",
     "shot admitted to final cut",
-    "script final for release"
+    "script final for release",
+    "candidate media attached",
+    "candidate media hashed",
+    "candidate selected"
   ]
 }
