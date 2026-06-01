@@ -1,0 +1,15 @@
+{
+  "object_type": "CINEMATICUM_CHARTER_OF_CINEMATIC_JURISDICTION",
+  "schema_version": "0.1.0",
+  "root_sentence": "CINEMATICUM issues admissible motion pictures.",
+  "forbidden_reductions": [
+    "AI video generator",
+    "prompt-to-video pipeline",
+    "model wrapper",
+    "render farm",
+    "demo clip factory",
+    "synthetic media showcase"
+  ],
+  "issued_object": "ADMISSIBLE_MOTION_PICTURE",
+  "first_case": "CASE_001_THE_LAST_RENDER"
+}

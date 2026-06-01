@@ -1,0 +1,9 @@
+{
+  "object_type": "CINEMATICUM_CASE_CHARTER",
+  "schema_version": "0.1.0",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "title": "THE LAST RENDER",
+  "target_status": "FIRST_ISSUED_ADMISSIBLE_MOTION_PICTURE",
+  "core_thesis": "A film is not alive because it is generated. A film is alive because someone chose what must remain.",
+  "status": "CASE_OPEN_NOT_ISSUED"
+}

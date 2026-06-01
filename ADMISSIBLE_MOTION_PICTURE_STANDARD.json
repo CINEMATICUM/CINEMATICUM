@@ -1,0 +1,28 @@
+{
+  "object_type": "ADMISSIBLE_MOTION_PICTURE_STANDARD",
+  "schema_version": "0.1.0",
+  "required_bodies": {
+    "audience_body": [
+      "image",
+      "sound",
+      "silence",
+      "performance",
+      "rhythm",
+      "cut",
+      "audience_experience"
+    ],
+    "evidentiary_body": [
+      "director_authority",
+      "script_lock",
+      "shot_function_lock",
+      "selected_take_record",
+      "final_cut_timeline",
+      "release_manifest",
+      "media_hashes",
+      "public_release_object",
+      "outsider_replay_proof",
+      "terminal_closure"
+    ]
+  },
+  "issuance_rule": "A motion picture is issued only when the audience body and evidentiary body are both complete."
+}
