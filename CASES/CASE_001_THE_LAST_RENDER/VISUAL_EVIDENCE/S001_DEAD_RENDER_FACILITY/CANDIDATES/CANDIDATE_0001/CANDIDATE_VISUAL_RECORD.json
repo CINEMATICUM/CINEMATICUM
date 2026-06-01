@@ -1,16 +1,16 @@
 {
   "object_type": "CINEMATICUM_CANDIDATE_VISUAL_RECORD",
-  "schema_version": "0.3.0",
+  "schema_version": "0.5.0",
   "object_id": "s001-candidate-0001",
   "jurisdiction": "CINEMATICUM",
   "case_id": "CASE_001_THE_LAST_RENDER",
   "shot_id": "S001",
   "candidate_id": "CANDIDATE_0001",
-  "status": "PROMPT_LOCKED_MEDIA_NOT_ATTACHED",
+  "status": "SELF_RENDERED_MEDIA_ATTACHED_HASHED_NOT_SELECTED",
   "declared_function": "Prove the world is a facility of unfinished films, not a sci-fi corridor.",
   "prompt_lock_path": "PROMPT_LOCK.md",
-  "media_path": null,
-  "media_sha256": null,
+  "media_path": "MEDIA/s001_candidate_0001_original.mp4",
+  "media_sha256": "29958bf06ee221250a40af4438f6c7b035f3b3e4bbed65223bf07cead8c032fd",
   "evaluation": {
     "required_burdens": [
       "dead render facility",
@@ -28,5 +28,13 @@
     ],
     "selection_result": "NOT_SELECTED"
   },
-  "issuance_effect": "None. Candidate prompt is locked, but no media is attached and no take is selected."
+  "issuance_effect": "None. CINEMATICUM self-rendered candidate media is attached and hashed, but no take is selected and the film is not issued.",
+  "media_size_bytes": 23242,
+  "media_type": "mp4",
+  "generation": {
+    "mode": "SELF_RENDERED_BY_CINEMATICUM",
+    "manifest_path": "SELF_RENDER/SELF_RENDER_MANIFEST.json",
+    "render_seed": "CINEMATICUM_CASE_001_S001_CANDIDATE_0001_SELF_RENDER_V0_5_0",
+    "render_engine": "cinematicum-procedural-ppm-x264"
+  }
 }

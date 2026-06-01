@@ -1,0 +1,17 @@
+{
+  "object_type": "CINEMATICUM_SELF_RENDER_RESULT",
+  "schema_version": "0.5.0",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "shot_id": "S001",
+  "candidate_id": "CANDIDATE_0001",
+  "valid": true,
+  "media_path": "CASES/CASE_001_THE_LAST_RENDER/VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/CANDIDATES/CANDIDATE_0001/SELF_RENDER/s001_candidate_0001_self_render.mp4",
+  "media_sha256": "29958bf06ee221250a40af4438f6c7b035f3b3e4bbed65223bf07cead8c032fd",
+  "media_size_bytes": 23242,
+  "selected": false,
+  "proves_self_render_capability": true,
+  "proves_film_issued": false,
+  "proves_truth": false,
+  "proves_admissibility": false
+}

@@ -1,10 +1,20 @@
 {
   "object_type": "CINEMATICUM_MEDIA_HASHES",
-  "schema_version": "0.1.0",
+  "schema_version": "0.4.0",
   "object_id": "media-hashes-0001",
   "jurisdiction": "CINEMATICUM",
   "case_id": "CASE_001_THE_LAST_RENDER",
-  "status": "NO_MEDIA_HASHES_YET",
+  "status": "CANDIDATE_MEDIA_HASH_RECORDED_NO_SELECTED_TAKE",
   "hash_algorithm": "sha256",
-  "media": []
+  "media": [
+    {
+      "case_id": "CASE_001_THE_LAST_RENDER",
+      "shot_id": "S001",
+      "candidate_id": "CANDIDATE_0001",
+      "path": "CASES/CASE_001_THE_LAST_RENDER/VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/CANDIDATES/CANDIDATE_0001/MEDIA/s001_candidate_0001_original.mp4",
+      "sha256": "29958bf06ee221250a40af4438f6c7b035f3b3e4bbed65223bf07cead8c032fd",
+      "size_bytes": 23242,
+      "selected": false
+    }
+  ]
 }

@@ -27,12 +27,12 @@ const spine = readJson(spinePath);
 if (spine.object_type !== "CINEMATICUM_ISSUANCE_SPINE") fail("wrong spine object_type");
 if (spine.jurisdiction !== "CINEMATICUM") fail("wrong jurisdiction");
 if (spine.case_id !== CASE_ID) fail("wrong case_id");
-if (!["CASE_OPEN_NOT_ISSUED", "CASE_OPEN_SCRIPT_AND_SHOT_LAW_LOCKED_NOT_ISSUED", "CASE_OPEN_CANDIDATE_VISUAL_PROMPT_LOCKED_NOT_ISSUED", "CASE_OPEN_CANDIDATE_MEDIA_ATTACHED_NOT_SELECTED_NOT_ISSUED"].includes(spine.spine_status)) fail("wrong case open status");
+if (!["CASE_OPEN_NOT_ISSUED", "CASE_OPEN_SCRIPT_AND_SHOT_LAW_LOCKED_NOT_ISSUED", "CASE_OPEN_CANDIDATE_VISUAL_PROMPT_LOCKED_NOT_ISSUED", "CASE_OPEN_CANDIDATE_MEDIA_ATTACHED_NOT_SELECTED_NOT_ISSUED", "CASE_OPEN_SELF_RENDERED_CANDIDATE_MEDIA_NOT_SELECTED_NOT_ISSUED"].includes(spine.spine_status)) fail("wrong case open status");
 if (!Array.isArray(spine.required_objects) || spine.required_objects.length < 10) fail("insufficient required objects");
 
 const manifest = {
   object_type: "CINEMATICUM_CASE_001_VERIFICATION_RESULT",
-  schema_version: spine.spine_status === "CASE_OPEN_CANDIDATE_MEDIA_ATTACHED_NOT_SELECTED_NOT_ISSUED" ? "0.4.0" : spine.spine_status === "CASE_OPEN_CANDIDATE_VISUAL_PROMPT_LOCKED_NOT_ISSUED" ? "0.3.0" : spine.spine_status === "CASE_OPEN_SCRIPT_AND_SHOT_LAW_LOCKED_NOT_ISSUED" ? "0.2.0" : "0.1.0",
+  schema_version: spine.spine_status === "CASE_OPEN_SELF_RENDERED_CANDIDATE_MEDIA_NOT_SELECTED_NOT_ISSUED" ? "0.5.0" : spine.spine_status === "CASE_OPEN_CANDIDATE_MEDIA_ATTACHED_NOT_SELECTED_NOT_ISSUED" ? "0.4.0" : spine.spine_status === "CASE_OPEN_CANDIDATE_VISUAL_PROMPT_LOCKED_NOT_ISSUED" ? "0.3.0" : spine.spine_status === "CASE_OPEN_SCRIPT_AND_SHOT_LAW_LOCKED_NOT_ISSUED" ? "0.2.0" : "0.1.0",
   jurisdiction: "CINEMATICUM",
   case_id: CASE_ID,
   valid: true,

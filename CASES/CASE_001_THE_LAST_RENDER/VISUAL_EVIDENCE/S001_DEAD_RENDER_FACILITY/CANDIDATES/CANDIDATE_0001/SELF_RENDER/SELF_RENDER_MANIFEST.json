@@ -1,0 +1,25 @@
+{
+  "object_type": "CINEMATICUM_SELF_RENDER_MANIFEST",
+  "schema_version": "0.5.0",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "shot_id": "S001",
+  "candidate_id": "CANDIDATE_0001",
+  "render_engine": "cinematicum-procedural-ppm-x264",
+  "render_seed": "CINEMATICUM_CASE_001_S001_CANDIDATE_0001_SELF_RENDER_V0_5_0",
+  "width": 960,
+  "height": 540,
+  "fps": 24,
+  "duration_seconds": 4,
+  "frame_count": 96,
+  "output_path": "s001_candidate_0001_self_render.mp4",
+  "output_sha256": "29958bf06ee221250a40af4438f6c7b035f3b3e4bbed65223bf07cead8c032fd",
+  "output_size_bytes": 23242,
+  "visual_law": "Dead matte-black render facility; projection beam as last surviving authority; no people, no UI, no cyberpunk, no explanatory text.",
+  "claims": {
+    "proves_truth": false,
+    "proves_admissibility": false,
+    "proves_film_issued": false,
+    "proves_self_render_capability": true
+  }
+}
