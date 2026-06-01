@@ -1,10 +1,18 @@
 {
   "object_type": "CINEMATICUM_ISSUANCE_RECEIPT",
-  "schema_version": "0.1.0",
-  "object_id": "issuance-receipt-0001",
+  "schema_version": "0.6.0",
   "jurisdiction": "CINEMATICUM",
   "case_id": "CASE_001_THE_LAST_RENDER",
-  "status": "NOT_ISSUED",
-  "issued": false,
-  "reason": "Audience body and evidentiary body are not complete."
+  "issued_object": "COMPILER_CUT_0001",
+  "issued_at": "2026-06-01T13:22:41.127Z",
+  "artifact_path": "FILM/CASE_001_THE_LAST_RENDER_COMPILER_CUT_0001.mp4",
+  "artifact_sha256": "6c322d7a0753658ac4f2a0d7ff9e161f76a25fbf81b696c36d682f5ef432978f",
+  "artifact_size_bytes": 7408974,
+  "authority": "CINEMATICUM_AUTONOMOUS_FILM_COMPILER",
+  "claims": {
+    "proves_compiler_generated_film": true,
+    "proves_truth": false,
+    "proves_admissibility": false,
+    "proves_external_reality": false
+  }
 }

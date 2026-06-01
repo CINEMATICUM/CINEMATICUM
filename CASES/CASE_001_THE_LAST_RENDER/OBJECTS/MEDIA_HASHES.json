@@ -1,10 +1,18 @@
 {
   "object_type": "CINEMATICUM_MEDIA_HASHES",
-  "schema_version": "0.1.0",
-  "object_id": "media-hashes-0001",
+  "schema_version": "0.6.0",
   "jurisdiction": "CINEMATICUM",
   "case_id": "CASE_001_THE_LAST_RENDER",
-  "status": "NO_MEDIA_HASHES_YET",
-  "hash_algorithm": "sha256",
-  "media": []
+  "complete": true,
+  "media": [
+    {
+      "media_id": "COMPILER_CUT_0001_MP4",
+      "path": "FILM/CASE_001_THE_LAST_RENDER_COMPILER_CUT_0001.mp4",
+      "sha256": "6c322d7a0753658ac4f2a0d7ff9e161f76a25fbf81b696c36d682f5ef432978f",
+      "size_bytes": 7408974,
+      "generated_by": "CINEMATICUM_AUTONOMOUS_FILM_COMPILER",
+      "external_api_used": false,
+      "external_media_used": false
+    }
+  ]
 }

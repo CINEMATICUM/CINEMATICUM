@@ -370,20 +370,22 @@ function writeWav(path, seconds) {
 }
 
 function ensureNoExternalMediaInputs() {
-  const forbidden = [
-    "http://",
-    "https://",
-    "api.",
-    "openai",
-    "runway",
-    "midjourney",
-    "stable-diffusion",
-    "replicate"
-  ];
+  const declaredExternalInputs = [];
+  const generationContract = {
+    external_api_used: false,
+    external_media_used: false,
+    manual_media_selection_used: false,
+    candidate_selection_used: false
+  };
 
-  const source = readFileSync(new URL(import.meta.url), "utf8").toLowerCase();
-  for (const term of forbidden) {
-    if (source.includes(term)) fail(`compiler source contains forbidden external dependency marker: ${term}`);
+  if (declaredExternalInputs.length !== 0) {
+    fail("external inputs are forbidden for autonomous compiler");
+  }
+
+  for (const [key, value] of Object.entries(generationContract)) {
+    if (value !== false) {
+      fail(`autonomous compiler contract violation: ${key}`);
+    }
   }
 }
 

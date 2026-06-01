@@ -1,10 +1,10 @@
 {
   "object_type": "CINEMATICUM_CASE_001_VERIFICATION_RESULT",
-  "schema_version": "0.4.0",
+  "schema_version": "0.6.0",
   "jurisdiction": "CINEMATICUM",
   "case_id": "CASE_001_THE_LAST_RENDER",
   "valid": true,
-  "status": "CASE_OPEN_CANDIDATE_VISUAL_PROMPT_LOCKED_NOT_ISSUED",
+  "status": "CASE_001_SELF_RENDERED_COMPILER_CUT_ISSUED",
   "verified_objects": [
     {
       "path": "CASES/CASE_001_THE_LAST_RENDER/CASE_CHARTER.json",
@@ -14,8 +14,8 @@
     },
     {
       "path": "CASES/CASE_001_THE_LAST_RENDER/ISSUANCE_SPINE.json",
-      "sha256": "6aadd13c5412a62087bdc9fdd77f6e669c56d9da5ae0414e165099677cd34d76",
-      "size_bytes": 1393,
+      "sha256": "bebc543a6d06f1b509f195122af90e5d6fc2b35e86e0588e962ee8edc2609b14",
+      "size_bytes": 1366,
       "binary": false
     },
     {
@@ -44,26 +44,26 @@
     },
     {
       "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/FINAL_CUT_TIMELINE.json",
-      "sha256": "0c6abb831fb198162a63a7703c4e7226de028296956a9c04e8d6a458ef49b209",
-      "size_bytes": 369,
+      "sha256": "e36b94b1da61ab8d0838098693d2826194f02fcbeee64c72507987b28ab6a95b",
+      "size_bytes": 544,
       "binary": false
     },
     {
       "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/RELEASE_MANIFEST.json",
-      "sha256": "575a0aa3f1fdff40a9d4ab063cb528e856ac06ccc687b021c02933d196f50b1a",
-      "size_bytes": 373,
+      "sha256": "a306602b8a71125982d00ab8ff2862d784dcf962a8adecbe868b9ba2353b24b5",
+      "size_bytes": 757,
       "binary": false
     },
     {
       "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/MEDIA_HASHES.json",
-      "sha256": "0f77914cc23886ba2066e46e48c7342e32dcb52c38313f16820db4b273479408",
-      "size_bytes": 267,
+      "sha256": "6421df2d463c7d9955898dd59727dad80d10d8b29bbded36e912a353a34ba3c3",
+      "size_bytes": 557,
       "binary": false
     },
     {
       "path": "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/ISSUANCE_RECEIPT.json",
-      "sha256": "25b580e96762760a1c76d992f45eb1f59a0b049573550f2ec9d4ca3199506a03",
-      "size_bytes": 308,
+      "sha256": "71b91fe7691aa64ea47c97c6d81f8befa2ce52ae9fe2cf64057171d40c0c17ca",
+      "size_bytes": 652,
       "binary": false
     },
     {
@@ -107,25 +107,38 @@
       "sha256": "efdab815ca9c867eb80ecea366dce9134379e3f5b0d12d3f4e083785f6203b68",
       "size_bytes": 1050,
       "binary": false
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/FILM/COMPILER_CUT_MANIFEST.json",
+      "sha256": "f5e9f98891fdcc80991edf07786fb8ed27e28df4f7619620fdec8f01a1c28189",
+      "size_bytes": 1204,
+      "binary": false
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/FILM/COMPILER_TIMELINE.json",
+      "sha256": "66be29e6d11ace911bb3b1203c6dc72ce0896b2b9d5ea32cd8f5e7872b8af892",
+      "size_bytes": 2535,
+      "binary": false
+    },
+    {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/FILM/CASE_001_THE_LAST_RENDER_COMPILER_CUT_0001.mp4",
+      "sha256": "6c322d7a0753658ac4f2a0d7ff9e161f76a25fbf81b696c36d682f5ef432978f",
+      "size_bytes": 7408974,
+      "binary": true
     }
   ],
   "forbidden_claims_enforced": [
-    "film issued",
-    "final cut exists",
-    "media hashes complete",
-    "outsider replay complete",
-    "release complete",
     "truth verified",
     "admissibility decided outside CINEMATICUM standard",
-    "visual evidence selected",
-    "shot admitted to final cut",
-    "script final for release",
-    "candidate media attached",
-    "candidate media hashed",
-    "candidate selected"
+    "external API used",
+    "external media used",
+    "manual media selected",
+    "candidate selected",
+    "unhashed media",
+    "unverified binary artifact"
   ],
-  "proves_compiler_generated_film": false,
-  "proves_film_issued": false,
+  "proves_compiler_generated_film": true,
+  "proves_film_issued": true,
   "proves_truth": false,
   "proves_admissibility": false,
   "proves_external_reality": false
