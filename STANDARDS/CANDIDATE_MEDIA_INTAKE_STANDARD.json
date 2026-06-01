@@ -1,0 +1,35 @@
+{
+  "object_type": "CINEMATICUM_CANDIDATE_MEDIA_INTAKE_STANDARD",
+  "schema_version": "0.4.0",
+  "jurisdiction": "CINEMATICUM",
+  "standard_id": "candidate-media-intake-v0.4.0",
+  "law": "Candidate media may enter a case only through explicit file intake, hash calculation, record update, and non-selection preservation.",
+  "required_properties": [
+    "source file must exist",
+    "source file must be non-empty",
+    "source file must be copied into the candidate MEDIA directory",
+    "sha256 must be recorded",
+    "size_bytes must be recorded",
+    "candidate record must remain NOT_SELECTED",
+    "visual evidence object must remain no-take-selected",
+    "case must remain not issued"
+  ],
+  "forbidden_inputs": [
+    "placeholder media",
+    "missing file",
+    "empty file",
+    "remote URL without local captured artifact",
+    "unhashed media",
+    "selected take mutation",
+    "final cut mutation",
+    "issuance mutation"
+  ],
+  "forbidden_claims": [
+    "candidate selected",
+    "take selected",
+    "final cut exists",
+    "film issued",
+    "truth verified",
+    "admissibility decided outside CINEMATICUM standard"
+  ]
+}
