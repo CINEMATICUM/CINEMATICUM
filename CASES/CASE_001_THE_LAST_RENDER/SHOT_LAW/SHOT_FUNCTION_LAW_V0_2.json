@@ -1,0 +1,72 @@
+{
+  "object_type": "CINEMATICUM_SHOT_FUNCTION_LAW",
+  "schema_version": "0.2.0",
+  "object_id": "shot-function-law-v0.2.0-case-001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "SHOT_FUNCTIONS_LOCKED_FOR_EVIDENCE_INTAKE_NOT_FINAL_CUT",
+  "law": "A shot is admissible to the case only if it has a declared narrative burden, sensory burden, exclusion boundary, and evidence intake rule.",
+  "shot_functions": [
+    {
+      "shot_id": "S001",
+      "name": "Dead Render Facility",
+      "narrative_burden": "Prove the world is a facility of unfinished films, not a sci-fi corridor.",
+      "sensory_burden": "matte-black silence, dead machines, projection light as last authority",
+      "exclusion_boundary": [
+        "no neon cyberpunk interface",
+        "no heroic character pose",
+        "no decorative spaceship logic",
+        "no readable UI exposition"
+      ],
+      "evidence_intake_rule": "Any candidate visual for S001 must show tomb-like cinematic infrastructure and must not explain itself through interface text."
+    },
+    {
+      "shot_id": "S002",
+      "name": "Corrupted Timeline Discovery",
+      "narrative_burden": "Reveal the missing object as timeline absence.",
+      "sensory_burden": "fragmented light, archival dust, damaged projection rhythm",
+      "exclusion_boundary": [
+        "no detective-board cliché",
+        "no hacking montage",
+        "no timeline UI as explanation"
+      ],
+      "evidence_intake_rule": "Any candidate visual for S002 must make absence visible without turning it into a dashboard."
+    },
+    {
+      "shot_id": "S003",
+      "name": "Infinite Render Trap",
+      "narrative_burden": "Show that endless outputs can erase responsibility.",
+      "sensory_burden": "repetition, overflow, fatigue, false abundance",
+      "exclusion_boundary": [
+        "no generic AI server room",
+        "no model-brand symbolism",
+        "no meme-like generation wall"
+      ],
+      "evidence_intake_rule": "Any candidate visual for S003 must make abundance feel like death, not productivity."
+    },
+    {
+      "shot_id": "S004",
+      "name": "The Chosen Frame",
+      "narrative_burden": "Make selection feel irreversible.",
+      "sensory_burden": "single frame, restraint, pressure, lawful stillness",
+      "exclusion_boundary": [
+        "no triumphant reveal",
+        "no magical glow solution",
+        "no sentimental overstatement"
+      ],
+      "evidence_intake_rule": "Any candidate visual for S004 must make choosing feel like testimony."
+    },
+    {
+      "shot_id": "S005",
+      "name": "Last Admissible Witness",
+      "narrative_burden": "Close the film on witnesshood, not spectacle.",
+      "sensory_burden": "final projection, human scale, terminal quiet",
+      "exclusion_boundary": [
+        "no sequel hook",
+        "no victory pose",
+        "no apocalypse panorama"
+      ],
+      "evidence_intake_rule": "Any candidate visual for S005 must end the case rather than expand the universe."
+    }
+  ]
+}

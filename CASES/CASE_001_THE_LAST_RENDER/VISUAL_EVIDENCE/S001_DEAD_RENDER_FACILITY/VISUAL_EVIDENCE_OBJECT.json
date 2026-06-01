@@ -1,0 +1,32 @@
+{
+  "object_type": "CINEMATICUM_VISUAL_EVIDENCE_OBJECT",
+  "schema_version": "0.2.0",
+  "object_id": "visual-evidence-s001-dead-render-facility-0001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "shot_id": "S001",
+  "status": "EVIDENCE_OBJECT_OPEN_NO_MEDIA_SELECTED",
+  "declared_function": "Prove the world is a facility of unfinished films, not a sci-fi corridor.",
+  "visual_law": {
+    "required": [
+      "monumental but empty render facility",
+      "projection light as last surviving authority",
+      "dead machines implied without clutter",
+      "matte-black architectural silence",
+      "human absence felt as wound"
+    ],
+    "forbidden": [
+      "cyberpunk neon",
+      "game environment",
+      "dashboard UI",
+      "robot character",
+      "generic apocalypse city",
+      "over-explained text"
+    ]
+  },
+  "candidate_media": [],
+  "selected_media": null,
+  "media_hash_required_before_selection": true,
+  "selection_status": "NO_TAKE_SELECTED",
+  "issuance_effect": "None. This object opens visual evidence intake only and does not issue the film."
+}

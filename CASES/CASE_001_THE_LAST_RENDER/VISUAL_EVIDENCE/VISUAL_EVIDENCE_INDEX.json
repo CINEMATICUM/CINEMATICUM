@@ -1,0 +1,20 @@
+{
+  "object_type": "CINEMATICUM_VISUAL_EVIDENCE_INDEX",
+  "schema_version": "0.2.0",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "VISUAL_EVIDENCE_INTAKE_OPEN",
+  "entries": [
+    {
+      "shot_id": "S001",
+      "path": "VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/VISUAL_EVIDENCE_OBJECT.json",
+      "selection_status": "NO_TAKE_SELECTED"
+    }
+  ],
+  "forbidden_claims": [
+    "final image selected",
+    "take admitted to final cut",
+    "film issued",
+    "release complete"
+  ]
+}
