@@ -1,10 +1,16 @@
 {
   "object_type": "CINEMATICUM_FINAL_CUT_TIMELINE",
-  "schema_version": "0.1.0",
-  "object_id": "final-cut-timeline-0001",
+  "schema_version": "0.6.0",
   "jurisdiction": "CINEMATICUM",
   "case_id": "CASE_001_THE_LAST_RENDER",
-  "status": "NO_FINAL_CUT_YET",
-  "timeline": [],
-  "cut_rule": "The final cut is the first point where no additional generated option can overrule selected testimony."
+  "status": "COMPILER_CUT_EXISTS",
+  "final_cut_id": "COMPILER_CUT_0001",
+  "timeline_path": "FILM/COMPILER_TIMELINE.json",
+  "media_path": "FILM/CASE_001_THE_LAST_RENDER_COMPILER_CUT_0001.mp4",
+  "selection_model": "NO_CANDIDATE_SELECTION_AUTONOMOUS_COMPILER_OUTPUT",
+  "claims": {
+    "proves_truth": false,
+    "proves_admissibility": false,
+    "proves_external_reality": false
+  }
 }

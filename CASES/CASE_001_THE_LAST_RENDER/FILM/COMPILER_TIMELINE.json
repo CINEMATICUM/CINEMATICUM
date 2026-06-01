@@ -1,0 +1,82 @@
+{
+  "object_type": "CINEMATICUM_COMPILER_TIMELINE",
+  "schema_version": "0.6.0",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "title": "The Last Render",
+  "compiler_cut_id": "COMPILER_CUT_0001",
+  "timeline": [
+    {
+      "shot_id": "S001",
+      "title": "Dead Render Facility",
+      "start_seconds": 0,
+      "duration_seconds": 6,
+      "frame_start": 0,
+      "frame_count": 144,
+      "function": "establish the dead render facility as a silent witness chamber",
+      "source": "procedural compiler law",
+      "external_media_used": false,
+      "candidate_selection_used": false
+    },
+    {
+      "shot_id": "S002",
+      "title": "Corrupted Timeline Vault",
+      "start_seconds": 6,
+      "duration_seconds": 6,
+      "frame_start": 144,
+      "frame_count": 144,
+      "function": "show the missing timeline as broken light, not exposition",
+      "source": "procedural compiler law",
+      "external_media_used": false,
+      "candidate_selection_used": false
+    },
+    {
+      "shot_id": "S003",
+      "title": "Machine Memory Corridor",
+      "start_seconds": 12,
+      "duration_seconds": 7,
+      "frame_start": 288,
+      "frame_count": 168,
+      "function": "move through a corridor of dormant render machines",
+      "source": "procedural compiler law",
+      "external_media_used": false,
+      "candidate_selection_used": false
+    },
+    {
+      "shot_id": "S004",
+      "title": "Last Admissible Witness",
+      "start_seconds": 19,
+      "duration_seconds": 7,
+      "frame_start": 456,
+      "frame_count": 168,
+      "function": "isolate the witness position without showing a person",
+      "source": "procedural compiler law",
+      "external_media_used": false,
+      "candidate_selection_used": false
+    },
+    {
+      "shot_id": "S005",
+      "title": "The Gate Refuses Noise",
+      "start_seconds": 26,
+      "duration_seconds": 6,
+      "frame_start": 624,
+      "frame_count": 144,
+      "function": "separate lawful signal from dead image noise",
+      "source": "procedural compiler law",
+      "external_media_used": false,
+      "candidate_selection_used": false
+    },
+    {
+      "shot_id": "S006",
+      "title": "The Last Render",
+      "start_seconds": 32,
+      "duration_seconds": 8,
+      "frame_start": 768,
+      "frame_count": 192,
+      "function": "make the final projection beam become the film artifact itself",
+      "source": "procedural compiler law",
+      "external_media_used": false,
+      "candidate_selection_used": false
+    }
+  ]
+}

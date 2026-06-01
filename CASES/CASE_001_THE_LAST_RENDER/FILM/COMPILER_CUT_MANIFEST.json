@@ -1,0 +1,37 @@
+{
+  "object_type": "CINEMATICUM_COMPILER_CUT_MANIFEST",
+  "schema_version": "0.6.0",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "title": "The Last Render",
+  "compiler_cut_id": "COMPILER_CUT_0001",
+  "artifact_path": "CASE_001_THE_LAST_RENDER_COMPILER_CUT_0001.mp4",
+  "artifact_sha256": "6c322d7a0753658ac4f2a0d7ff9e161f76a25fbf81b696c36d682f5ef432978f",
+  "artifact_size_bytes": 7408974,
+  "width": 960,
+  "height": 540,
+  "fps": 24,
+  "duration_seconds": 40,
+  "frame_count": 960,
+  "audio": {
+    "mode": "procedural_pcm_synthesis",
+    "sample_rate": 48000,
+    "local_build_path": ".cinematicum-build/CASE_001_THE_LAST_RENDER/score.wav",
+    "sha256": "af973663e435b9ce350fafb14e9dc3fb5cc2d387ac08a861c6b72145b2713bab",
+    "size_bytes": 3840044
+  },
+  "generation": {
+    "mode": "AUTONOMOUS_FILM_COMPILER",
+    "external_api_used": false,
+    "external_media_used": false,
+    "manual_media_selection_used": false,
+    "candidate_selection_used": false,
+    "ffmpeg_used_as_local_encoder": true
+  },
+  "claims": {
+    "proves_compiler_generated_film": true,
+    "proves_truth": false,
+    "proves_admissibility": false,
+    "proves_external_reality": false
+  }
+}

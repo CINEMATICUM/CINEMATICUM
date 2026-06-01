@@ -1,10 +1,23 @@
 {
   "object_type": "CINEMATICUM_RELEASE_MANIFEST",
-  "schema_version": "0.1.0",
-  "object_id": "release-manifest-0001",
+  "schema_version": "0.6.0",
   "jurisdiction": "CINEMATICUM",
   "case_id": "CASE_001_THE_LAST_RENDER",
-  "status": "NOT_RELEASED",
-  "release_artifacts": [],
-  "release_rule": "No release is valid without media hashes, final cut timeline, issuance receipt, and terminal closure."
+  "release_id": "CASE_001_COMPILER_CUT_0001",
+  "release_status": "ISSUED_COMPILER_CUT",
+  "artifact": {
+    "path": "FILM/CASE_001_THE_LAST_RENDER_COMPILER_CUT_0001.mp4",
+    "sha256": "6c322d7a0753658ac4f2a0d7ff9e161f76a25fbf81b696c36d682f5ef432978f",
+    "size_bytes": 7408974
+  },
+  "generation_basis": "autonomous procedural compiler",
+  "external_api_used": false,
+  "external_media_used": false,
+  "manual_media_selection_used": false,
+  "claims": {
+    "proves_film_artifact_issued": true,
+    "proves_truth": false,
+    "proves_admissibility": false,
+    "proves_external_reality": false
+  }
 }

@@ -1,9 +1,9 @@
 {
   "object_type": "CINEMATICUM_ISSUANCE_SPINE",
-  "schema_version": "0.1.0",
+  "schema_version": "0.6.0",
   "jurisdiction": "CINEMATICUM",
   "case_id": "CASE_001_THE_LAST_RENDER",
-  "spine_status": "CASE_OPEN_CANDIDATE_VISUAL_PROMPT_LOCKED_NOT_ISSUED",
+  "spine_status": "CASE_001_SELF_RENDERED_COMPILER_CUT_ISSUED",
   "required_objects": [
     "CASE_CHARTER.json",
     "OBJECTS/DIRECTORIAL_AUTHORITY.json",
@@ -20,21 +20,19 @@
     "SHOT_LAW/SHOT_FUNCTION_LAW_V0_2.json",
     "VISUAL_EVIDENCE/VISUAL_EVIDENCE_INDEX.json",
     "VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/VISUAL_EVIDENCE_OBJECT.json",
-    "VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/CANDIDATES/CANDIDATE_0001/CANDIDATE_VISUAL_RECORD.json"
+    "VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/CANDIDATES/CANDIDATE_0001/CANDIDATE_VISUAL_RECORD.json",
+    "FILM/COMPILER_CUT_MANIFEST.json",
+    "FILM/COMPILER_TIMELINE.json",
+    "FILM/CASE_001_THE_LAST_RENDER_COMPILER_CUT_0001.mp4"
   ],
   "forbidden_claims": [
-    "film issued",
-    "final cut exists",
-    "media hashes complete",
-    "outsider replay complete",
-    "release complete",
     "truth verified",
     "admissibility decided outside CINEMATICUM standard",
-    "visual evidence selected",
-    "shot admitted to final cut",
-    "script final for release",
-    "candidate media attached",
-    "candidate media hashed",
-    "candidate selected"
+    "external API used",
+    "external media used",
+    "manual media selected",
+    "candidate selected",
+    "unhashed media",
+    "unverified binary artifact"
   ]
 }
