@@ -1,0 +1,51 @@
+{
+  "object_type": "CINEMATICUM_SCRIPT_LOCK",
+  "schema_version": "0.2.0",
+  "object_id": "script-lock-v0.2.0-case-001",
+  "jurisdiction": "CINEMATICUM",
+  "case_id": "CASE_001_THE_LAST_RENDER",
+  "status": "SCRIPT_LOCKED_FOR_CASE_DEVELOPMENT_NOT_FINAL_CUT",
+  "title": "THE LAST RENDER",
+  "root_sentence": "A solitary projectionist must choose one final admissible frame over infinite unfinished generation.",
+  "audience_wound": "The viewer must feel that unfinished work is a form of death, and that final cut is not export but testimony.",
+  "locked_sequence": [
+    {
+      "scene_id": "SCENE_001",
+      "scene_title": "The Facility After Export Death",
+      "dramatic_function": "Establish the render facility as a tomb for unfinished works.",
+      "required_emotion": "awe, dread, procedural silence"
+    },
+    {
+      "scene_id": "SCENE_002",
+      "scene_title": "The Corrupted Timeline",
+      "dramatic_function": "The projectionist discovers that the missing film is not missing footage but missing witness.",
+      "required_emotion": "recognition before explanation"
+    },
+    {
+      "scene_id": "SCENE_003",
+      "scene_title": "The Infinite Render Trap",
+      "dramatic_function": "Show that endless generation destroys the possibility of testimony.",
+      "required_emotion": "temptation, exhaustion, refusal"
+    },
+    {
+      "scene_id": "SCENE_004",
+      "scene_title": "The Chosen Frame",
+      "dramatic_function": "The projectionist selects one frame that must remain.",
+      "required_emotion": "burdened decision"
+    },
+    {
+      "scene_id": "SCENE_005",
+      "scene_title": "The Last Admissible Witness",
+      "dramatic_function": "The film closes when the projectionist becomes the witness, not the author of spectacle.",
+      "required_emotion": "terminal quiet"
+    }
+  ],
+  "forbidden_mutations": [
+    "turn the film into a generic AI apocalypse",
+    "make the render facility merely decorative",
+    "let visual spectacle replace testimony",
+    "resolve the story through technology",
+    "claim final cut before selected takes exist",
+    "claim issuance before media hashes and release manifest exist"
+  ]
+}

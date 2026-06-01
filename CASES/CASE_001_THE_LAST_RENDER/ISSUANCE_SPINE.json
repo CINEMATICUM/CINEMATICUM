@@ -3,7 +3,7 @@
   "schema_version": "0.1.0",
   "jurisdiction": "CINEMATICUM",
   "case_id": "CASE_001_THE_LAST_RENDER",
-  "spine_status": "CASE_OPEN_NOT_ISSUED",
+  "spine_status": "CASE_OPEN_SCRIPT_AND_SHOT_LAW_LOCKED_NOT_ISSUED",
   "required_objects": [
     "CASE_CHARTER.json",
     "OBJECTS/DIRECTORIAL_AUTHORITY.json",
@@ -15,7 +15,11 @@
     "OBJECTS/MEDIA_HASHES.json",
     "OBJECTS/ISSUANCE_RECEIPT.json",
     "OBJECTS/OUTSIDER_REPLAY_BUNDLE.json",
-    "OBJECTS/TERMINAL_CLOSURE.json"
+    "OBJECTS/TERMINAL_CLOSURE.json",
+    "SCRIPTS/SCRIPT_LOCK_V0_2.json",
+    "SHOT_LAW/SHOT_FUNCTION_LAW_V0_2.json",
+    "VISUAL_EVIDENCE/VISUAL_EVIDENCE_INDEX.json",
+    "VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/VISUAL_EVIDENCE_OBJECT.json"
   ],
   "forbidden_claims": [
     "film issued",
@@ -24,6 +28,9 @@
     "outsider replay complete",
     "release complete",
     "truth verified",
-    "admissibility decided outside CINEMATICUM standard"
+    "admissibility decided outside CINEMATICUM standard",
+    "visual evidence selected",
+    "shot admitted to final cut",
+    "script final for release"
   ]
 }
