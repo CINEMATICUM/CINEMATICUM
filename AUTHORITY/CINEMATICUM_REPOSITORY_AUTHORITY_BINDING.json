@@ -1,0 +1,75 @@
+{
+  "object_type": "CINEMATICUM_REPOSITORY_AUTHORITY_BINDING",
+  "schema_version": "1.0.0",
+  "jurisdiction": "CINEMATICUM",
+  "root_sentence": "CINEMATICUM issues admissible motion pictures.",
+  "binding_stage": "ISSUANCE_AUTHORITY_DECLARATION",
+  "canonical_relationship_status": "ISSUANCE_AUTHORITY_BOUND_RECIPROCAL_ACK_PENDING",
+  "issuance_jurisdiction": {
+    "repository": "CINEMATICUM/CINEMATICUM",
+    "base_head": "fae2be69e042e2708f5f50ffd901c810aa7669cf",
+    "role": "CANONICAL_ISSUANCE_JURISDICTION",
+    "authority_over": [
+      "cinematic_jurisdiction",
+      "admissible_motion_picture_standard",
+      "case_status",
+      "issuance_decision",
+      "issuance_record"
+    ]
+  },
+  "production_replay_track": {
+    "repository": "kaaffilm/CINEMATICUM",
+    "head": "e4c4afccce1d2bd8ec280c5eb0d177142ec1c82d",
+    "role": "CANONICAL_PINNED_PRODUCTION_REPLAY_ARTIFACT_TRACK",
+    "authority_over": [
+      "pinned_production_artifacts",
+      "pinned_replay_artifacts",
+      "public_release_replay_evidence"
+    ],
+    "truth_authority": false,
+    "admissibility_authority": false,
+    "issuance_authority": false
+  },
+  "lineage": {
+    "historical_repo_birth_form": "kaaffilm/CINEMATICUM",
+    "current_issuance_jurisdiction_repository": "CINEMATICUM/CINEMATICUM",
+    "binding_effect": "ROLE_SPLIT_EXPLICIT",
+    "production_repository_superseded_as_issuance_authority": true,
+    "production_repository_superseded_as_production_replay_authority": false,
+    "production_history_preserved": true,
+    "repository_deletion_authorized": false,
+    "repository_archive_authorized": false,
+    "source_merge_authorized": false
+  },
+  "case_001": {
+    "case_id": "CASE_001_THE_LAST_RENDER",
+    "issuance_status": "CASE_OPEN_NOT_ISSUED",
+    "production_artifact": {
+      "repository": "kaaffilm/CINEMATICUM",
+      "head": "e4c4afccce1d2bd8ec280c5eb0d177142ec1c82d",
+      "path": "CASES/CASE_001_THE_LAST_RENDER/FILM/CASE_001_THE_LAST_RENDER_GODCUT_0001.mp4",
+      "sha256": "f23d3da43ed0dfc0a4f97b7c6ad722107cc2531ac584780424ace2c45ff5a192"
+    },
+    "production_artifact_exists": true,
+    "compiler_cut_artifact_issuance_preserved": true,
+    "compiler_cut_artifact_issuance_is_not_admissible_motion_picture_issuance": true,
+    "production_artifact_admissible_motion_picture_issuance_effect": "NONE",
+    "production_replay_success_implies_admissible_motion_picture_issuance": false,
+    "artifact_existence_implies_admissibility": false
+  },
+  "external_consumer_law": {
+    "external_consumer_may_claim_issuance_authority": false,
+    "external_consumer_may_change_case_status": false,
+    "external_consumer_may_translate_production_replay_into_issuance": false,
+    "external_consumer_must_preserve_repository_role_split": true
+  },
+  "reciprocal_binding": {
+    "production_repository_acknowledgement_required": true,
+    "production_repository_acknowledgement_present": false,
+    "full_cross_repository_canonicality_resolved": false
+  },
+  "adapter_boundary": {
+    "source_merge_allowed": false,
+    "adapter_implementation_eligible_before_reciprocal_ack": false
+  }
+}
