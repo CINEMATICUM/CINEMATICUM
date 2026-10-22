@@ -45,7 +45,9 @@ The existence or successful replay of a production artifact does not make that a
 
 The historical production repository is not deleted, archived, source-merged, or stripped of its production/replay role by this declaration.
 
-A reciprocal acknowledgement in the production/replay repository is still required before the cross-repository canonicality relation is considered fully resolved.
+The reciprocal acknowledgement is already merged in the production/replay repository at `e83e0074f2bbba4b7c2af9c2b81adbba1c5c28d4`. The accepted role split permits adapter implementation while preserving both repositories and keeping Case 001 open.
+
+`AUTHORITY/CINEMATICUM_REPOSITORY_AUTHORITY_RESOLUTION.json` projects that existing acceptance. The original binding remains byte-identical because the production acknowledgement pins its hash. The evidence copy is the existing acknowledgement, not a new acknowledgement or a new issuance decision.
 
 Canonical machine-readable authority object:
 
@@ -57,7 +59,20 @@ Verification:
 
 ```bash
 node scripts/verify-cross-repository-authority-binding.mjs
+# Optionally recheck production main and accepted-merge ancestry through public GitHub:
+node scripts/verify-cross-repository-authority-binding.mjs --online
 ```
 
 <!-- CINEMATICUM_CROSS_REPOSITORY_AUTHORITY_BINDING_V1_END -->
+
+## Final-film acceptance and issuance
+
+The separate [final-release workflow](FINAL_RELEASE_WORKFLOW.md) verifies final authority, script and shot locks, selected-take provenance, a locked timeline, grade and sound masters, complete media hashes, signed artistic decisions, and independent public replay before producing an immutable issuance record.
+
+```bash
+node --test tests/final-release.test.mjs tests/authority-resolution.test.mjs
+node scripts/final-release.mjs verify --package /path/to/release-package --trust /path/to/external-trust.json
+```
+
+This tooling does not complete or issue Case 001 by itself. Its final locks, selected takes, approved masters, authorized artistic acceptance and independent public replay still have to exist. The historical compiler-cut verifier and records remain unchanged; a compiler-cut pass does not become final-film acceptance.
 

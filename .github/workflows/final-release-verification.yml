@@ -1,0 +1,52 @@
+name: Final-film acceptance verification
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install media decoders
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y ffmpeg
+      - name: Verify the declared implementation bytes
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import path from 'node:path';
+          import {createHash} from 'node:crypto';
+          const root = process.cwd();
+          const manifest = JSON.parse(fs.readFileSync('PROOFS/FINAL_RELEASE_SOURCE_MANIFEST.json'));
+          for (const item of manifest.files) {
+            const file = path.resolve(root, item.path);
+            if (!file.startsWith(root + path.sep) || fs.lstatSync(file).isSymbolicLink()) throw Error('Invalid source path');
+            const bytes = fs.readFileSync(file);
+            if (bytes.length !== item.size_bytes || createHash('sha256').update(bytes).digest('hex') !== item.sha256) throw Error('Source differs: ' + item.path);
+          }
+          console.log('Verified ' + manifest.files.length + ' implementation files.');
+          JS
+      - name: Exercise real media and adversarial acceptance cases
+        run: node --test --test-isolation=none --test-reporter=tap tests/final-release.test.mjs tests/authority-resolution.test.mjs > "$RUNNER_TEMP/final-release-tests.tap"
+      - name: Preserve historical compiler and authority verification
+        run: |
+          node scripts/verify-case-001.mjs
+          node scripts/verify-cross-repository-authority-binding.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: final-release-verification
+          path: ${{ runner.temp }}/final-release-tests.tap
+          if-no-files-found: error

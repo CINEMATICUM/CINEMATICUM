@@ -1,0 +1,80 @@
+{
+  "object_type": "CINEMATICUM_PRODUCTION_REPOSITORY_AUTHORITY_ACKNOWLEDGEMENT",
+  "schema_version": "1.0.0",
+  "jurisdiction": "CINEMATICUM",
+  "acknowledgement_stage": "RECIPROCAL_PRODUCTION_REPOSITORY_ACKNOWLEDGEMENT",
+  "acknowledgement_effect": "ROLE_SPLIT_RECIPROCALLY_BOUND_ON_ACCEPTED_MERGE",
+  "production_replay_track": {
+    "repository": "kaaffilm/CINEMATICUM",
+    "acknowledged_base_head": "e4c4afccce1d2bd8ec280c5eb0d177142ec1c82d",
+    "role": "CANONICAL_PINNED_PRODUCTION_REPLAY_ARTIFACT_TRACK",
+    "authority_over": [
+      "pinned_production_artifacts",
+      "pinned_replay_artifacts",
+      "public_release_replay_evidence"
+    ],
+    "truth_authority": false,
+    "admissibility_authority": false,
+    "admissible_motion_picture_issuance_authority": false
+  },
+  "issuance_jurisdiction": {
+    "repository": "CINEMATICUM/CINEMATICUM",
+    "accepted_merge_sha": "517fd51f43ae8a17db219da352f5b83998d45fbd",
+    "accepted_candidate_head": "94ead911b0868b0458b3af22f5af711c43291a26",
+    "authority_binding_path": "AUTHORITY/CINEMATICUM_REPOSITORY_AUTHORITY_BINDING.json",
+    "authority_binding_blob": "1b3c1a0da80aa4055193f13c4063eae4e3b060dc",
+    "authority_binding_sha256": "f2966e7e2b758cf5c6355db0bf8d8587bcfad750fd30f3bfef77b40434593e41",
+    "role": "CANONICAL_ISSUANCE_JURISDICTION",
+    "authority_over": [
+      "cinematic_jurisdiction",
+      "admissible_motion_picture_standard",
+      "case_status",
+      "issuance_decision",
+      "issuance_record"
+    ]
+  },
+  "lineage": {
+    "historical_repo_birth_form": "kaaffilm/CINEMATICUM",
+    "current_issuance_jurisdiction_repository": "CINEMATICUM/CINEMATICUM",
+    "production_repository_superseded_as_issuance_authority": true,
+    "production_repository_superseded_as_production_replay_authority": false,
+    "production_history_preserved": true
+  },
+  "case_001": {
+    "case_id": "CASE_001_THE_LAST_RENDER",
+    "acknowledged_issuance_status": "CASE_OPEN_NOT_ISSUED",
+    "production_artifact": {
+      "path": "CASES/CASE_001_THE_LAST_RENDER/FILM/CASE_001_THE_LAST_RENDER_GODCUT_0001.mp4",
+      "sha256": "f23d3da43ed0dfc0a4f97b7c6ad722107cc2531ac584780424ace2c45ff5a192"
+    },
+    "production_artifact_exists": true,
+    "production_artifact_implies_admissibility": false,
+    "production_replay_success_implies_admissible_motion_picture_issuance": false,
+    "accepted_issuance_declaration_preserves_compiler_cut_artifact_issuance": true,
+    "compiler_cut_artifact_issuance_is_not_admissible_motion_picture_issuance": true
+  },
+  "reciprocal_binding": {
+    "issuance_authority_declaration_accepted": true,
+    "production_repository_acknowledgement_this_object": true,
+    "acknowledgement_effective_when_merged_to_production_main": true
+  },
+  "governance_transition": {
+    "pre_merge_full_cross_repository_canonicality_resolved": false,
+    "pre_merge_adapter_implementation_eligible": false,
+    "on_accepted_merge_full_cross_repository_canonicality_resolved": true,
+    "on_accepted_merge_adapter_implementation_eligible": true
+  },
+  "adapter_boundary": {
+    "source_merge_allowed": false,
+    "kaaffilm_is_issuance_authority": false,
+    "adapter_only_integration_required": true
+  },
+  "prohibited_operations": {
+    "repository_delete_authorized": false,
+    "repository_archive_authorized": false,
+    "history_rewrite_authorized": false,
+    "source_merge_authorized": false,
+    "case_status_mutation_authorized": false,
+    "issuance_decision_mutation_authorized": false
+  }
+}
