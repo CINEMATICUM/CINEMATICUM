@@ -1,0 +1,97 @@
+{
+  "algorithm": "sha256",
+  "base_commit": "517fd51f43ae8a17db219da352f5b83998d45fbd",
+  "excluded_from_manifest": [
+    "PROOFS/FINAL_RELEASE_SOURCE_MANIFEST.json",
+    "PROOFS/FINAL_RELEASE_WORKFLOW_VERIFICATION.json"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/final-release-verification.yml",
+      "sha256": "a28c8556a0eec00ec499913da81e9575e6d18da94175c4cd747a7cc0086689f5",
+      "size_bytes": 2061
+    },
+    {
+      "path": "AUTHORITY/CINEMATICUM_REPOSITORY_AUTHORITY_RESOLUTION.json",
+      "sha256": "ecca1396343839606685a13b3573d4353269d7a3c1a31e464032bc6b11deec93",
+      "size_bytes": 2104
+    },
+    {
+      "path": "AUTHORITY/EVIDENCE/production-acknowledgement-e83e0074.json",
+      "sha256": "7e2a59156d6611b940b158a402e75d9add47a25aa60c728f8f340c4d50a63abd",
+      "size_bytes": 3486
+    },
+    {
+      "path": "FINAL_RELEASE_WORKFLOW.md",
+      "sha256": "f9c33ba0b27a6b5bda816418ca26f5a502dae6b0e5ff82409d334ec6473680f1",
+      "size_bytes": 17112
+    },
+    {
+      "path": "README.md",
+      "sha256": "fbe0ab3b24d9f8c69c73b7c9d312a4d2cc8126e3e273f860b538a7f38e3f6c5c",
+      "size_bytes": 3311
+    },
+    {
+      "path": "scripts/authority-resolution.mjs",
+      "sha256": "c645d8da08cfa7f2d8d13f5392f5e81d51ec99f4012e0a5c1e4517f768c8a450",
+      "size_bytes": 5049
+    },
+    {
+      "path": "scripts/final-release.mjs",
+      "sha256": "84191bdc7948073cf03275eee8b99aa9305eb6ebd10862d7c4a7daf9dc4b0703",
+      "size_bytes": 8079
+    },
+    {
+      "path": "scripts/final-release/core.mjs",
+      "sha256": "62ea2ebb54fd3b5ff7652acdd18c4f986dbed288f9cac8beddd021f16e633dea",
+      "size_bytes": 34254
+    },
+    {
+      "path": "scripts/verify-cross-repository-authority-binding.mjs",
+      "sha256": "7feaea51574f0b9a903a80fcea5b95bdf55a32ab16dd34951fe80b7720eeb208",
+      "size_bytes": 3897
+    },
+    {
+      "path": "tests/authority-resolution.test.mjs",
+      "sha256": "bbc19947d317f9c3622afb27453dc532b6fb1386cca93d42dd10f34c447c0146",
+      "size_bytes": 3146
+    },
+    {
+      "path": "tests/final-release.test.mjs",
+      "sha256": "1364cee4581a70d7b0f0b2ebbdc31323b511a5d5e3993c1c6741c162b87a217e",
+      "size_bytes": 18633
+    }
+  ],
+  "object_type": "CINEMATICUM_FINAL_RELEASE_SOURCE_INTEGRITY",
+  "protected_baseline_files_verified_unchanged": [
+    "AUTHORITY/CINEMATICUM_REPOSITORY_AUTHORITY_BINDING.json",
+    "scripts/verify-case-001.mjs",
+    "CASES/CASE_001_THE_LAST_RENDER/AUDIENCE_WOUND.md",
+    "CASES/CASE_001_THE_LAST_RENDER/CASE_CHARTER.json",
+    "CASES/CASE_001_THE_LAST_RENDER/FILM/CASE_001_THE_LAST_RENDER_COMPILER_CUT_0001.mp4",
+    "CASES/CASE_001_THE_LAST_RENDER/FILM/COMPILER_CUT_MANIFEST.json",
+    "CASES/CASE_001_THE_LAST_RENDER/FILM/COMPILER_TIMELINE.json",
+    "CASES/CASE_001_THE_LAST_RENDER/FILM_THESIS.md",
+    "CASES/CASE_001_THE_LAST_RENDER/ISSUANCE_SPINE.json",
+    "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/DIRECTORIAL_AUTHORITY.json",
+    "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/FINAL_CUT_TIMELINE.json",
+    "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/ISSUANCE_RECEIPT.json",
+    "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/MEDIA_HASHES.json",
+    "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/OUTSIDER_REPLAY_BUNDLE.json",
+    "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/RELEASE_MANIFEST.json",
+    "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/SCRIPT_LOCK.json",
+    "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/SELECTED_TAKE_RECORD.json",
+    "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/SHOT_FUNCTION_LOCK.json",
+    "CASES/CASE_001_THE_LAST_RENDER/OBJECTS/TERMINAL_CLOSURE.json",
+    "CASES/CASE_001_THE_LAST_RENDER/PROOFS/autonomous-film-compile-result.json",
+    "CASES/CASE_001_THE_LAST_RENDER/PROOFS/case-001-verification-result.json",
+    "CASES/CASE_001_THE_LAST_RENDER/SCRIPTS/SCRIPT_LOCK_V0_2.json",
+    "CASES/CASE_001_THE_LAST_RENDER/SHOT_LAW/SHOT_FUNCTION_LAW_V0_2.json",
+    "CASES/CASE_001_THE_LAST_RENDER/VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/CANDIDATES/CANDIDATE_0001/CANDIDATE_VISUAL_RECORD.json",
+    "CASES/CASE_001_THE_LAST_RENDER/VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/CANDIDATES/CANDIDATE_0001/PROMPT_LOCK.md",
+    "CASES/CASE_001_THE_LAST_RENDER/VISUAL_EVIDENCE/S001_DEAD_RENDER_FACILITY/VISUAL_EVIDENCE_OBJECT.json",
+    "CASES/CASE_001_THE_LAST_RENDER/VISUAL_EVIDENCE/VISUAL_EVIDENCE_INDEX.json",
+    "CURRENT/CURRENT_CASE.json"
+  ],
+  "schema_version": "1.0.0"
+}

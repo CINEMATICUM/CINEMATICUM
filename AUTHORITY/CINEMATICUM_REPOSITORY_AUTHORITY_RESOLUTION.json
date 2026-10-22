@@ -1,0 +1,40 @@
+{
+  "object_type": "CINEMATICUM_REPOSITORY_AUTHORITY_RESOLUTION",
+  "schema_version": "1.0.0",
+  "resolution_type": "PROJECTION_OF_ALREADY_ACCEPTED_RECIPROCAL_ACKNOWLEDGEMENT",
+  "observed_at": "2026-10-22T09:16:59Z",
+  "original_binding": {
+    "repository": "CINEMATICUM/CINEMATICUM",
+    "accepted_merge_sha": "517fd51f43ae8a17db219da352f5b83998d45fbd",
+    "path": "AUTHORITY/CINEMATICUM_REPOSITORY_AUTHORITY_BINDING.json",
+    "blob": "1b3c1a0da80aa4055193f13c4063eae4e3b060dc",
+    "sha256": "f2966e7e2b758cf5c6355db0bf8d8587bcfad750fd30f3bfef77b40434593e41",
+    "preserved_byte_for_byte": true
+  },
+  "accepted_acknowledgement": {
+    "repository": "kaaffilm/CINEMATICUM",
+    "accepted_merge_sha": "e83e0074f2bbba4b7c2af9c2b81adbba1c5c28d4",
+    "production_main_observed_at_commit": "e83e0074f2bbba4b7c2af9c2b81adbba1c5c28d4",
+    "path": "AUTHORITY/CINEMATICUM_PRODUCTION_REPOSITORY_AUTHORITY_ACKNOWLEDGEMENT.json",
+    "blob": "9bb05354c7ce88eeb1eb9f6b76e9b6ac00b3940d",
+    "sha256": "7e2a59156d6611b940b158a402e75d9add47a25aa60c728f8f340c4d50a63abd",
+    "evidence_copy": "AUTHORITY/EVIDENCE/production-acknowledgement-e83e0074.json",
+    "source_url": "https://github.com/kaaffilm/CINEMATICUM/blob/e83e0074f2bbba4b7c2af9c2b81adbba1c5c28d4/AUTHORITY/CINEMATICUM_PRODUCTION_REPOSITORY_AUTHORITY_ACKNOWLEDGEMENT.json",
+    "main_observation_url": "https://api.github.com/repos/kaaffilm/CINEMATICUM/branches/main",
+    "new_acknowledgement_created": false
+  },
+  "effective_projection": {
+    "production_repository_acknowledgement_present": true,
+    "full_cross_repository_canonicality_resolved": true,
+    "adapter_implementation_eligible": true,
+    "adapter_only_integration_required": true,
+    "issuance_jurisdiction": "CINEMATICUM/CINEMATICUM",
+    "production_replay_track": "kaaffilm/CINEMATICUM",
+    "case_status": "CASE_OPEN_NOT_ISSUED",
+    "source_merge_authorized": false,
+    "repository_deletion_authorized": false,
+    "history_rewrite_authorized": false,
+    "production_artifact_implies_admissibility": false,
+    "production_replay_success_implies_issuance": false
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "authority_verification": {
+    "acknowledgement_blob": "9bb05354c7ce88eeb1eb9f6b76e9b6ac00b3940d",
+    "command": "node --use-env-proxy scripts/verify-cross-repository-authority-binding.mjs --online",
+    "exit_code": 0,
+    "live_remote_rechecked": true,
+    "new_acknowledgement_created": false,
+    "original_binding_unchanged": true,
+    "production_main_sha": "e83e0074f2bbba4b7c2af9c2b81adbba1c5c28d4"
+  },
+  "base_commit": "517fd51f43ae8a17db219da352f5b83998d45fbd",
+  "claims": {
+    "production_approval_created": false,
+    "proves_admissibility": false,
+    "proves_external_reality": false,
+    "proves_film_issued": false,
+    "proves_truth": false,
+    "remote_write_performed": false
+  },
+  "current_case_status": "CASE_OPEN_NOT_ISSUED",
+  "github_ci": {
+    "status": "pending_publication",
+    "workflow": ".github/workflows/final-release-verification.yml"
+  },
+  "independent_root_recheck": {
+    "elapsed_ms": 8377.431749,
+    "failed": 0,
+    "implementation_files_unchanged": true,
+    "passed": 16,
+    "skipped": 0,
+    "temporary_directory": "explicit writable ENGINE_TEST directory"
+  },
+  "legacy_verification": {
+    "command": "node scripts/verify-case-001.mjs",
+    "exit_code": 0,
+    "protected_baseline_files_unchanged": 28,
+    "proves_admissibility": false
+  },
+  "object_type": "CINEMATICUM_FINAL_RELEASE_WORKFLOW_VERIFICATION",
+  "production_acceptance_remaining": [
+    "Actual final authority and approved script/shot locks",
+    "Actual selected-take provenance and normalized final timeline",
+    "Actual approved picture, mix and lossless delivery masters",
+    "Jurisdiction-approved signer policy and explicit artistic decisions",
+    "Actual published package and independent public replay",
+    "Explicit issuance authorization and canonical jurisdiction acceptance"
+  ],
+  "runtime": {
+    "ffmpeg": "6.1.1-3ubuntu5",
+    "node": "v24.19.0",
+    "platform": "Linux"
+  },
+  "schema_version": "1.0.0",
+  "source_manifest": {
+    "path": "PROOFS/FINAL_RELEASE_SOURCE_MANIFEST.json",
+    "sha256": "e34f260136744802f0e6dd6faaf34be567e0afa7d4f0a3560d512e0ca9323801"
+  },
+  "test_execution": {
+    "command": "CINEMATICUM_TEST_TMPDIR=<writable-temporary-root> node --test --test-isolation=none tests/final-release.test.mjs tests/authority-resolution.test.mjs",
+    "exit_code": 0,
+    "failed": 0,
+    "passed": 16,
+    "public_download_transport": "Injected fixture transport; not a production GitHub Release replay",
+    "skipped": 0,
+    "test_media": "Actual 64x48, four-frame FFV1 and 48,000-sample PCM fixture media; no production media accepted",
+    "tests": 16
+  },
+  "verified_at": "2026-10-22T09:24:24+00:00"
+}

@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import process from "node:process";
+import { verifyAuthorityResolution, recheckAcceptedAcknowledgement } from "./authority-resolution.mjs";
 
 function fail(message) {
   console.error(`FAIL=${message}`);
@@ -56,11 +57,24 @@ if (binding.reciprocal_binding.full_cross_repository_canonicality_resolved !== f
 
 if (binding.adapter_boundary.adapter_implementation_eligible_before_reciprocal_ack !== false) fail("PREMATURE_ADAPTER_ELIGIBILITY");
 
+let resolution, remote;
+if (process.argv.slice(2).some(argument => argument !== '--online')) fail('UNKNOWN_ARGUMENT');
+try {
+  resolution = verifyAuthorityResolution();
+  if (process.argv.includes('--online')) {
+    if (!resolution) fail('NO_RESOLUTION_TO_RECHECK');
+    remote = await recheckAcceptedAcknowledgement();
+  }
+} catch (error) { fail(error.message); }
 console.log("CINEMATICUM_CROSS_REPOSITORY_AUTHORITY_BINDING=PASS");
 console.log("ISSUANCE_JURISDICTION=CINEMATICUM/CINEMATICUM");
 console.log("PRODUCTION_REPLAY_TRACK=kaaffilm/CINEMATICUM");
 console.log("CASE_STATUS=CASE_OPEN_NOT_ISSUED");
 console.log("PRODUCTION_ARTIFACT_IMPLIES_ADMISSIBLE_MOTION_PICTURE_ISSUANCE=false");
 console.log("SOURCE_MERGE_ALLOWED=false");
-console.log("RECIPROCAL_ACK_PENDING=true");
-console.log("FULL_CROSS_REPOSITORY_CANONICALITY_RESOLVED=false");
+console.log(`RECIPROCAL_ACK_PENDING=${resolution ? 'false' : 'true'}`);
+console.log(`FULL_CROSS_REPOSITORY_CANONICALITY_RESOLVED=${resolution ? 'true' : 'false'}`);
+console.log(`ADAPTER_IMPLEMENTATION_ELIGIBLE=${resolution ? 'true' : 'false'}`);
+console.log("ORIGINAL_BINDING_PRESERVED=true");
+if (remote) console.log(`REMOTE_RECHECK=${JSON.stringify(remote)}`);
+else console.log("LIVE_REMOTE_RECHECKED=false");
